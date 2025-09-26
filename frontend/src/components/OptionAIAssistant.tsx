@@ -46,7 +46,7 @@ interface OptionAIAssistantProps {
 }
 
 const groq = new Groq({
-  apiKey: import.meta.env.VITE_GROQ_API_KEY || "your_api_key",
+  apiKey: import.meta.env.VITE_GROQ_API_KEY,
   dangerouslyAllowBrowser: true
 });
 
