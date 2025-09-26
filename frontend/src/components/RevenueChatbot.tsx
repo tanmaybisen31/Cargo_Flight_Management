@@ -38,7 +38,7 @@ interface RevenueChatbotProps {
 }
 
 const groq = new Groq({
-  apiKey: "your_api_key",
+  apiKey: "VITE_GROQ_API_KEY",
   dangerouslyAllowBrowser: true
 });
 
