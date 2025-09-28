@@ -113,7 +113,7 @@ env/
 .mypy_cache/
 
 # Data
-data/
+
 outputs/
 # env files
 .env
