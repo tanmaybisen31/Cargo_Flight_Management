@@ -5,8 +5,8 @@ import json
 from pathlib import Path
 from typing import Iterable, List
 
-from .disruptions import DisruptionEvent
-from .pipeline import PipelineConfig, run_pipeline
+from disruptions import DisruptionEvent
+from pipeline import PipelineConfig, run_pipeline
 
 
 def _load_events(path: Path) -> Iterable[DisruptionEvent]:
