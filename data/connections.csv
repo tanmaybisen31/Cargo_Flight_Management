@@ -1,0 +1,15 @@
+origin,destination,connection_airport,min_connect_minutes,max_connect_hours
+IXR,DXB,DEL,90,18
+IXR,DXB,BLR,120,20
+IXR,BLR,DEL,80,12
+IXR,DEL,,0,8
+DEL,DXB,BLR,75,15
+DEL,DXB,,0,10
+DEL,BLR,,0,10
+BLR,DXB,DEL,90,18
+BLR,DXB,,0,12
+DXB,DEL,,0,12
+DXB,BLR,DEL,90,18
+DEL,IXR,,0,10
+BLR,DEL,,0,10
+DXB,IXR,DEL,120,24
